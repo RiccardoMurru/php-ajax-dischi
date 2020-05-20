@@ -1,0 +1,54 @@
+/* Colors */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background: #030303;
+}
+
+header img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.album {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100vh;
+  background: #1a1a1a;
+  color: #f2f2f2;
+}
+
+.album-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 25%;
+}
+
+.album-details .album-cover {
+  flex-basis: 25%;
+  max-height: 200px;
+  max-width: 200px;
+  padding: 20px;
+}
+

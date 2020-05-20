@@ -1,0 +1,13 @@
+// Header
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: $black;
+
+    img {
+        width: 50px;
+        margin-left: 20px;
+    }
+}
