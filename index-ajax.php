@@ -10,6 +10,7 @@
     <div class="container">
         <header>
             <img src="dist/img/spotify-logo.png" alt="logo">
+            <input class="searchbar" type="text" placeholder="Cerca tra gli artisti">
         </header>
     
         <main>
