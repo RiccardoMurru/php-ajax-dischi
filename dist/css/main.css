@@ -33,7 +33,7 @@ header img {
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
-  height: 100vh;
+  height: 100%;
   background: #1a1a1a;
   color: #f2f2f2;
 }
@@ -43,6 +43,10 @@ header img {
   flex-direction: column;
   align-items: center;
   flex-basis: 25%;
+  border: 1px solid #333;
+  background: #222;
+  margin: 20px;
+  padding: 20px;
 }
 
 .album-details .album-cover {
@@ -50,5 +54,22 @@ header img {
   max-height: 200px;
   max-width: 200px;
   padding: 20px;
+}
+
+.album-details span {
+  margin-bottom: 5px;
+}
+
+.album-details .title {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.album-details .author {
+  font-weight: 600;
+}
+
+.album-details .year {
+  font-size: 12px;
 }
 
